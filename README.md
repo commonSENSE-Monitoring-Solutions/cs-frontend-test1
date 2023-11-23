@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# commonSENSE Frontend Developer Code Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your task is to create a custom UI component using React / Typescript. You will be assessed on coding style, testability and functionality. The requirements for the UI component are listed below:
 
-## Available Scripts
+* The component is a modal dialog, which can be opened by pressing a button on the main app.
+* The modal dialog should contain a close button in the top-right corner.
+* The modal dialog should have capacity for a custom title (displayed at the top of the dialog), custom content, and an array of buttons in the bottom of the dialog.
+* When the modal is open, any content behind the modal should be disabled with a visual indicator that it is disabled (e.g. a dark overlay).
+* The app should be able to independently open and close multiple modal dialogs with different content, titles, buttons etc.
 
-In the project directory, you can run:
+Some things we prefer:
 
-### `yarn start`
+* Use `React.FC` styled components rather than full class components.
+* Avoid using existing UI component frameworks such as Material.
+* Make use of React Hooks (e.g. `useEffect`) where possible.
+* Use CSS frameworks such as `SASS` or `Tailwind`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Bonus points for:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Testability - any kind of unit tests are a huge bonus.
+* Clean Code - commenting where necessary, well formatted and structured code, minimal nested loops.
 
-### `yarn test`
+## Submission
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To submit your work, pull this repository and create a new branch with your name (e.g. `john_smith`). When you are ready to submit your work, create a pull request from your branch to the main branch. In the description of the pull request, please include the following information:
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Full Name
+* Email Address that you applied for the position with (or the email address you included in your C.V.)
