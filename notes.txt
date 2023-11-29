@@ -1,0 +1,2 @@
+Notes:
+- From what I understood, in the given task was requested to use both Styled Components and TailwindCSS, so that's why I choose to stlye some divs with TailwindCSS and some of the JSX elements with Styled Components.
