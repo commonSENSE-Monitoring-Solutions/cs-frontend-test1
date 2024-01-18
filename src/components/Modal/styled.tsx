@@ -40,11 +40,10 @@ export const CloseButton = styled.button`
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
-
   &:hover {
     text-decoration: underline;
   }
-`;
+` as any;
 
 export const Content = styled.div`
   padding: 20px;
@@ -68,5 +67,24 @@ export const ButtonContainer = styled.div`
     &:hover {
       background-color: #2980b9;
     }
+  }
+`;
+
+export const MainContainer = styled.div`
+  padding: 20px;
+`;
+
+export const OpenButton = styled.button`
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: #2980b9;
   }
 `;

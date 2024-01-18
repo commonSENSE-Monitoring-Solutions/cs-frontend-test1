@@ -1,25 +1,7 @@
 import React, { useState } from 'react';
 import Modal from './components/Modal/Modal';
-import styled from 'styled-components';
+import { MainContainer, OpenButton } from './components/Modal/styled';
 
-const MainContainer = styled.div`
-  padding: 20px;
-`;
-
-const OpenButton = styled.button`
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 1rem;
-  border-radius: 4px;
-  margin-right: 10px;
-
-  &:hover {
-    background-color: #2980b9;
-  }
-`;
 
 const App: React.FC = () => {
   const [modal1Open, setModal1Open] = useState(false);

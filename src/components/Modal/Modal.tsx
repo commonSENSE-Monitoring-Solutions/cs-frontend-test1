@@ -28,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, title, content, buttons, onClose 
           <ModalContainer>
             <Header>
               {title && <div>{title}</div>}
-              <CloseButton onClick={closeModal}>&times;</CloseButton>
+              <CloseButton data-testid="close-button" onClick={closeModal}>&times;</CloseButton>
             </Header>
             <Content>{content}</Content>
             {buttons && <ButtonContainer>{buttons}</ButtonContainer>}
