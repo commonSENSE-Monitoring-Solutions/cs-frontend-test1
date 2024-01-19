@@ -3,7 +3,8 @@ import Modal from './components/Modal/Modal';
 import { MainContainer, OpenButton } from './components/Modal/styled';
 
 
-const App: React.FC = () => {
+
+ const App: React.FC = () => {
   const [modal1Open, setModal1Open] = useState(false);
   const [modal2Open, setModal2Open] = useState(false);
 
@@ -14,9 +15,10 @@ const App: React.FC = () => {
   const closeModal2 = () => setModal2Open(false);
 
   return (
-    <MainContainer>
-      <OpenButton onClick={openModal1}>Open Modal 1</OpenButton>
-      <OpenButton onClick={openModal2}>Open Modal 2</OpenButton>
+    <MainContainer className='p-5'>
+      <OpenButton className="px-5 py-2.5 bg-blue-500 text-white border-none cursor-pointer text-base rounded-md hover:bg-blue-700 mr-10" onClick={openModal1}>Open Modal 1</OpenButton>
+      <OpenButton className="px-5 py-2.5 bg-blue-500 text-white border-none cursor-pointer text-base rounded-md hover:bg-blue-700 mr-10" onClick={openModal2}>Open Modal 2</OpenButton>
+
 
       <Modal
         isOpen={modal1Open}
@@ -39,6 +41,7 @@ const App: React.FC = () => {
       />
     </MainContainer>
   );
+
 };
 
 export default App;
